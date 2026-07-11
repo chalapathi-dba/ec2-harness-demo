@@ -34,7 +34,7 @@ resource "aws_instance" "demo" {
     CreatedBy = "harness-pipeline"
   }
 }
-
+#demo
 output "instance_id" {
   value = aws_instance.demo.id
 }
