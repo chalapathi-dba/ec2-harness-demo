@@ -34,7 +34,7 @@ resource "aws_instance" "demo" {
     CreatedBy = "harness-pipeline"
   }
 }
-#demo new new
+#demo new new vew
 output "instance_id" {
   value = aws_instance.demo.id
 }
